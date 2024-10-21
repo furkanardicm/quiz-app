@@ -87,9 +87,9 @@ function showQuestion(questionIndex) {
         console.log('Radio buttons aktifleştirildi.');
 
         // İkinci timeout: TIMEOUT_DURATION sonunda passQuestion fonksiyonunu çağırır
-        timer = setTimeout(passQuestion, 1000);
+        timer = setTimeout(passQuestion, 20000);
         console.log('timer başlatıldı');
-    }, 1000); // 10 saniye
+    }, 10000); // 10 saniye
 
 }
 
